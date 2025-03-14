@@ -96,53 +96,47 @@ const Header = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700">
           <div className="container mx-auto px-4 py-3 space-y-2">
-            <Link href="/#about">
-              <a 
-                className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
-                onClick={closeMobileMenu}
-              >
-                自己紹介
-              </a>
+            <Link 
+              href="/#about"
+              className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
+              onClick={closeMobileMenu}
+            >
+              自己紹介
             </Link>
-            <Link href="/#skills">
-              <a 
-                className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
-                onClick={closeMobileMenu}
-              >
-                スキル
-              </a>
+            <Link 
+              href="/#skills"
+              className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
+              onClick={closeMobileMenu}
+            >
+              スキル
             </Link>
-            <Link href="/#projects">
-              <a 
-                className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
-                onClick={closeMobileMenu}
-              >
-                プロジェクト
-              </a>
+            <Link 
+              href="/#projects"
+              className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
+              onClick={closeMobileMenu}
+            >
+              プロジェクト
             </Link>
-            <Link href="/#resume">
-              <a 
-                className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
-                onClick={closeMobileMenu}
-              >
-                経歴
-              </a>
+            <Link 
+              href="/#resume"
+              className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
+              onClick={closeMobileMenu}
+            >
+              経歴
             </Link>
-            <Link href="/#blog">
-              <a 
-                className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
-                onClick={closeMobileMenu}
-              >
-                ブログ
-              </a>
+            <Link 
+              href="/#blog"
+              className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
+              onClick={closeMobileMenu}
+            >
+              ブログ
             </Link>
-            <Link href="/#contact">
-              <a 
-                className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
-                onClick={closeMobileMenu}
-              >
-                連絡先
-              </a>
+            <Link 
+              href="/#contact"
+              className="block py-2 font-medium text-slate-700 hover:text-primary-600 dark:text-slate-200 dark:hover:text-primary-400 transition-colors"
+              onClick={closeMobileMenu}
+            >
+              連絡先
             </Link>
           </div>
         </div>
