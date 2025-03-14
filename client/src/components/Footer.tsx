@@ -23,23 +23,23 @@ const Footer = () => {
                 <h3 className="font-semibold mb-3 text-lg">リンク</h3>
                 <ul className="space-y-2">
                   <li>
-                    <Link href="/#about">
-                      <a className="text-slate-300 hover:text-primary-400 transition-colors">自己紹介</a>
+                    <Link href="/#about" className="text-slate-300 hover:text-primary-400 transition-colors">
+                      自己紹介
                     </Link>
                   </li>
                   <li>
-                    <Link href="/#projects">
-                      <a className="text-slate-300 hover:text-primary-400 transition-colors">プロジェクト</a>
+                    <Link href="/#projects" className="text-slate-300 hover:text-primary-400 transition-colors">
+                      プロジェクト
                     </Link>
                   </li>
                   <li>
-                    <Link href="/#resume">
-                      <a className="text-slate-300 hover:text-primary-400 transition-colors">経歴</a>
+                    <Link href="/#resume" className="text-slate-300 hover:text-primary-400 transition-colors">
+                      経歴
                     </Link>
                   </li>
                   <li>
-                    <Link href="/#blog">
-                      <a className="text-slate-300 hover:text-primary-400 transition-colors">ブログ</a>
+                    <Link href="/#blog" className="text-slate-300 hover:text-primary-400 transition-colors">
+                      ブログ
                     </Link>
                   </li>
                 </ul>
